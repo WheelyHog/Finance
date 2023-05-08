@@ -1,200 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Finance</title>
+    <title>PKTI</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin,cyrillic" rel="stylesheet"
-          type="text/css">
+        type="text/css">
+    <script src="https://kit.fontawesome.com/60f6cfe6f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
-          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="wrapper">
-    <div class="wrapper_inner">
+    <div class="wrapper">
+        <div class="wrapper_inner">
 
 
-        <header class="header">
-            <div class="container">
-                <div class="top_social">
-                    <div class="top_social_icon"><i class="lab la-facebook-f"></i></div>
-                    <div class="top_social_icon"><i class="lab la-twitter"></i></div>
-                    <div class="top_social_icon"><i class="lab la-google-plus"></i></div>
-                    <div class="top_social_icon"><i class="lab la-linkedin-in"></i></div>
-                </div>
-            </div>
-            <div class="top_header">
+            <header class="header">
                 <div class="container">
-                    <div class="top_header_inner">
-                        <div class="logo">
-                            <img src="./images/hog%20logo.svg" alt="logo_img" class="logo_img">
-                            <h2 class="logo_text">FinancePortal</h2>
-                        </div>
-                        <div class="top_header_menu">
-                            <ul class="top_header_menu_list">
-                                <li class="top_header_menu_item"><a href="#">home</a></li>
-                                <li class="top_header_menu_item"><a href="#">search</a></li>
-                                <li class="top_header_menu_item"><a href="#">login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <main>
-            <nav class="nav_menu">
-                <div class="container">
-                    <div class="main_menu_wrapper">
-                        <ul class="main_menu_list">
-                            <li class="main_menu_item"><a href="#">About Us</a></li>
-                            <li class="main_menu_item"><a href="#">Services</a></li>
-                            <li class="main_menu_item"><a href="#">Blog</a></li>
-                            <li class="main_menu_item"><a href="#">Industries</a></li>
-                            <li class="main_menu_item"><a href="#">Contacts</a></li>
+                    <!-- <div class="top_social">
+                        <div class="top_social_icon"><i class="lab la-facebook-f"></i></div>
+                        <div class="top_social_icon"><i class="lab la-twitter"></i></div>
+                        <div class="top_social_icon"><i class="lab la-google-plus"></i></div>
+                        <div class="top_social_icon"><i class="lab la-linkedin-in"></i></div>
+                    </div> -->
+                    <div class="top_header_menu">
+                        <ul class="top_header_menu_list">
+                            <li class="top_header_menu_item"><a href="#"><i class="las la-envelope"></i> Зв`язатись з
+                                    нами</a></li>
+                            <li class="top_header_menu_item"><a href="#"><i class="lar la-clock"></i> Пн-Пт 08:00 -
+                                    17:00</a></li>
+                            <li class="top_header_menu_item"><a href="#">Вхід</a></li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-            <section class="banner">
-                <div class="container">
-                    <div class="banner_inner">
-                        <div class="banner_left">
-                            <ul class="banner_menu">
-                                <li class="banner_menu_item"><a href="#">Management Services</a></li>
-                                <li class="banner_menu_item"><a href="#">Consulting Services</a></li>
-                                <li class="banner_menu_item"><a href="#">Policy Analysis</a></li>
-                                <li class="banner_menu_item"><a href="#">Regulatory Analysis</a></li>
-                                <li class="banner_menu_item"><a href="#">Market Assessment</a></li>
-                                <li class="banner_menu_item"><a href="#">Program Management</a></li>
-                                <li class="banner_menu_item"><a href="#">Regulatory Support</a></li>
-                                <li class="banner_menu_item"><a href="#">Risk Assessment</a></li>
-                                <li class="banner_menu_item"><a href="#">Market Research</a></li>
-                                <li class="banner_menu_item"><a href="#">Custom Training</a></li>
+                <div class="top_header">
+                    <div class="container">
+                        <div class="top_header_inner">
+                            <div class="logo">
+                                <img src="./images/logo.png" alt="logo_img" class="logo_img">
+                                <h2 class="logo_text">ПРАТ "Український проектно-конструкторський технологічний інститут
+                                    лісової промисловості"</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <nav class="nav_menu">
+                    <div class="container">
+                        <div class="main_menu_wrapper">
+                            <ul class="main_menu_list">
+                                <li class="main_menu_item"><a href="#"><i
+                                            class="fa-sharp fa-solid fa-house-chimney"></i>Головна</a></li>
+                                <li class="main_menu_item"><a href="#"><i class="fa-solid fa-circle-exclamation"></i>Про
+                                        Фірму</a></li>
+                                <li class="main_menu_item"><a href="#"><i
+                                            class="fa-solid fa-address-book"></i>Контакти</a></li>
+                                <li class="main_menu_item"><a href="#"><i class="fa-solid fa-list"></i>Продукція</a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="banner_right">
-                            <div class="banner_slider swiper mySwiper">
+                    </div>
+                </nav>
+
+                <section class="slider">
+                    <div class="container">
+                        <div class="slider_container">
+                            <div class="slider_inner swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                    <div class="banner_slide swiper-slide">
-                                        <img src="./images/slide1.jpg" class="banner_slide_img"></img>
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/mrb-2a.png" class="slide_img"></img>
+                                        <p class="device_name">МРБ-2А, МРБ-2Г</p>
                                         <div class="slider_bottom">
                                             <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
                                         </div>
                                     </div>
                                     <div class="banner_slide swiper-slide">
-                                        <img src="./images/slide2.jpg" class="banner_slide_img"></img>
+                                        <img src="./images/Slider/skip1.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
                                     </div>
                                     <div class="banner_slide swiper-slide">
-                                        <img src="./images/slide3.jpg" class="banner_slide_img"></img>
+                                        <img src="./images/Slider/urm-5a_b (1).png" class="slide_img"></img>
+                                        <p class="device_name">УРМ-5А</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/skip2.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/mrb-2ap.png" class="slide_img"></img>
+                                        <p class="device_name">МРБ-2АП</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/skip3.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/Urm-5.png" class="slide_img"></img>
+                                        <p class="device_name">УРМ-5, УРМ-5М</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/skip4.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/do51.png" class="slide_img"></img>
+                                        <p class="device_name">ДО-51</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/skip5.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/press.png" class="slide_img"></img>
+                                        <p class="device_name">Прес брикетувальний УБТ-350</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/skip3.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/avtomat.png" class="slide_img"></img>
+                                        <p class="device_name">Автоматичний пристрій для різки брикетів</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/skip2.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/chain_table_b (1).png" class="slide_img"></img>
+                                        <p class="device_name">Ланцюговий стіл для подачі заготовок</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/skip3.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/vibrostol.png" class="slide_img"></img>
+                                        <p class="device_name">Вібростіл для подачі заготовок</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="./images/Slider/skip2.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/konveyer.png" class="slide_img"></img>
+                                        <p class="device_name">Скребковий конвейер</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="banner_slide swiper-slide">
+                                        <img src="./images/Slider/skip3.png" class="slide_img"></img>
+                                        <p class="device_name">Паливна тріска</p>
+                                        <div class="slider_bottom">
+                                            <img class="slide_bottom" src="./images/bg.slideshow.png" alt="">
+                                        </div>
                                     </div>
                                 </div>
-
                                 <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section class="blog">
-                <div class="container">
-                    <div class="blog_head">
-                        <h4 class="blog_header">Blog</h4>
-                        <input type="search" class="search" placeholder="Search...">
-                    </div>
-                    <div class="blog_inner">
-                        <div class="blog_category_item">
-                            <h2 class="blog_category_header">Business <span>Technology</span></h2>
-                            <img src="./images/img.technology.jpg" class="blog_category_image">
-                            <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
-                            <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
-                            <a href="#" class="readmore">READ MORE ...</a>
-                        </div>
-                        <div class="blog_category_item">
-                            <h2 class="blog_category_header">SMART <span>MANAGEMENT</span></h2>
-                            <img src="./images/img.managment.jpg" class="blog_category_image">
-                            <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
-                            <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
-                            <a href="#" class="readmore">READ MORE ...</a>
-                        </div>
-                        <div class="blog_category_item">
-                            <h2 class="blog_category_header">MARKET <span>RESEARCH</span></h2>
-                            <img src="./images/img.research.jpg" class="blog_category_image">
-                            <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
-                            <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
-                            <a href="#" class="readmore">READ MORE ...</a>
-                        </div>
-                        <div class="blog_category_item">
-                            <h2 class="blog_category_header">SALES <span>ANALYSIS</span></h2>
-                            <img src="./images/img.analysis.jpg" class="blog_category_image">
-                            <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
-                            <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
-                            <a href="#" class="readmore">READ MORE ...</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="welcome">
-                <div class="container">
-                    <div class="welcome_inner">
-                        <div class="welcome_left">
-                            <h2 class="welcome_header">Welcome</h2>
-                            <div class="welcome_block">
-                                <ul class="welcome_list">
-                                    <li class="welcome_item">
-                                        <div class="welcome_icon">A</div>
-                                        <div class="welcome_description">
-                                            <p>Suscipit sem. Donec facilisis consequat tellus a fermentum. Maecenas
-                                                convallis, nunc eget porttitor. Aliquam vulputate elit acquam tristique
-                                                sit amet sceleris que eros euismod. Vestibulum dignissim accumsan.
-                                                Pellentesque metus nulla, gravida eget neque sed, tempus sagittis
-                                                gravida eget neque sed ipsum.</p>
-                                        </div>
-                                    </li>
-                                    <li class="welcome_item">
-                                        <div class="welcome_icon">B</div>
-                                        <div class="welcome_description">
-                                            <p>Lorem ipsum dolor sitom amet, consectetur deron adipiscing elit. Donec
-                                                facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget
-                                                porttitor. Praesento inamara posuere felis vulputate elit
-                                                acquam.Pellentesque metus nulla, gravida eget neque sed, tempus sagittis
-                                                ipsum nunc eget porttitor.</p>
-                                        </div>
-                                    </li>
-                                    <li class="welcome_item">
-                                        <div class="welcome_icon">C</div>
-                                        <div class="welcome_description">
-                                            <p>Mauris at metus neque, ac pretium lorem. Donec facilisis consequat tellus
-                                                a fermentum. Maecenas convallis, nunc eget porttitor. Vestibulum
-                                                dignissim accumsan ante, eu ultrices eros deron adipiscing
-                                                elit.Pellentesque metus nulla, gravida eget neque sed, tempus sagittis
-                                                ipsum facilisis consequat tellus.</p>
-                                        </div>
-                                    </li>
+                <section class="info">
+                    <div class="container">
+                        <div class="info_inner">
+                            <div class="info_left">
+                                <ul class="info_menu">
+                                    <li class="info_menu_item"><a href="#">МРБ-2А, МРБ-2Г</a></li>
+                                    <li class="info_menu_item"><a href="#">УРМ-5А</a></li>
+                                    <li class="info_menu_item"><a href="#">МРБ-2АП</a></li>
+                                    <li class="info_menu_item"><a href="#">УРМ-5, УРМ-5М</a></li>
+                                    <li class="info_menu_item"><a href="#">ДО-51</a></li>
+                                    <li class="info_menu_item"><a href="#">Прес брикетувальний УБТ-350</a></li>
+                                    <li class="info_menu_item"><a href="#">Автоматичний пристрій для різки
+                                            брикетів</a></li>
+                                    <li class="info_menu_item"><a href="#">Ланцюгові столи та вібростоли</a></li>
+                                    <!-- <li class="banner_menu_item"><a href="#">Market Research</a></li>
+                                    <li class="banner_menu_item"><a href="#">Custom Training</a></li> -->
                                 </ul>
                             </div>
+                            <div class="info_right">
+                                <div class="info_header">
+                                    <img src="./images/logo.png" alt="" class="info_img">
+                                    <h2 class="info_title">ПРАТ "УКРАЇНСЬКИЙ ПРОЕКТНО-КОНСТРУКТОРСЬКИЙ ТЕХНОЛОГІЧНИЙ
+                                        ІНСТИТУТ ЛІСОВОЇ ПРОМИСЛОВОСТІ"</h2>
+                                </div>
+                                <div class="info_text">
+                                    <p class="info_paragraph"><span>ПРАТ "УКРПКТІЛІСПРОМ"</span> є одним із найбільших
+                                        вітчизняних
+                                        виробників:</p>
+                                    <ul class="info_list">
+                                        <li class="info_list_item">
+                                            <p>Стаціонарних рубальних машин барабанного типу (подрібнювачі) для
+                                                лісопильного сектору, включаючи переробку деревних відходів в
+                                                технологічну та паливну тріску, а також аксесуари, такі як ланцюгові
+                                                столи та вібростоли подачі заготовок, стрічкові транспортери, конвейєри
+                                                для завантаження та транспортування різної довжини та ширини, адаптовані
+                                                до індивідуальних потреб клієнта.</p>
+                                        </li>
+                                        <li class="info_list_item">
+                                            <p>Шнекових пресів для брикетування тирси, соломи, лузги соняшника.</p>
+                                        </li>
+                                        <li class="info_list_item">
+                                            <p>Автоматичних пристроїв для різки брикетів.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="info_paragraph"><span>ПРАТ "УКРПКТІЛІСПРОМ"</span> розпочала свою
+                                        діяльність у 1961
+                                        році як проектна організація. 60% лісопильних, деревообробних, меблевих і
+                                        плитних підприємств України збудовані за нашими проектами. Наш багаторічний
+                                        досвід у проектуванні та виробництві машин для подрібнення деревних відходів
+                                        надає професійну допомогу у виборі конкретної машини з урахуванням
+                                        продуктивності та призначення. Завдяки добре навченому персоналу та співпраці з
+                                        клієнтами ми можемо виготовляти машини, адаптовані до їхніх індивідуальних
+                                        потреб. Висока якість і надійність нашої техніки робить послуги, що надаються
+                                        компаніями, які співпрацюють з нами, набагато привабливішими.</p>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="welcome_right">
-                            <img src="./images/welcome.jpg" alt="welcome_img" class="welcome_right_img">
-                            <img class="welcome_bottom" src="./images/bg.slideshow.png" alt="">
+                    </div>
+                </section>
+
+                <!-- <section class="blog">
+                    <div class="container">
+                        <div class="blog_head">
+                            <h4 class="blog_header">Blog</h4>
+                            <input type="search" class="search" placeholder="Search...">
+                        </div>
+                        <div class="blog_inner">
+                            <div class="blog_category_item">
+                                <h2 class="blog_category_header">Business <span>Technology</span></h2>
+                                <img src="./images/img.technology.jpg" class="blog_category_image">
+                                <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
+                                <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Donec
+                                    facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
+                                <a href="#" class="readmore">READ MORE ...</a>
+                            </div>
+                            <div class="blog_category_item">
+                                <h2 class="blog_category_header">SMART <span>MANAGEMENT</span></h2>
+                                <img src="./images/img.managment.jpg" class="blog_category_image">
+                                <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
+                                <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Donec
+                                    facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
+                                <a href="#" class="readmore">READ MORE ...</a>
+                            </div>
+                            <div class="blog_category_item">
+                                <h2 class="blog_category_header">MARKET <span>RESEARCH</span></h2>
+                                <img src="./images/img.research.jpg" class="blog_category_image">
+                                <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
+                                <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Donec
+                                    facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
+                                <a href="#" class="readmore">READ MORE ...</a>
+                            </div>
+                            <div class="blog_category_item">
+                                <h2 class="blog_category_header">SALES <span>ANALYSIS</span></h2>
+                                <img src="./images/img.analysis.jpg" class="blog_category_image">
+                                <img class="blog_category_bottom" src="./images/bg.slideshow.png" alt="">
+                                <p class="blog_category_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Donec
+                                    facilisis consequat tellus a fermentum. Maecenas convallis, nunc eget porttitor.</p>
+                                <a href="#" class="readmore">READ MORE ...</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="welcome">
+                    <div class="container">
+                        <div class="welcome_inner">
+                            <div class="welcome_left">
+                                <h2 class="welcome_header">Welcome</h2>
+                                <div class="welcome_block">
+                                    <ul class="welcome_list">
+                                        <li class="welcome_item">
+                                            <div class="welcome_icon">A</div>
+                                            <div class="welcome_description">
+                                                <p>Suscipit sem. Donec facilisis consequat tellus a fermentum. Maecenas
+                                                    convallis, nunc eget porttitor. Aliquam vulputate elit acquam
+                                                    tristique
+                                                    sit amet sceleris que eros euismod. Vestibulum dignissim accumsan.
+                                                    Pellentesque metus nulla, gravida eget neque sed, tempus sagittis
+                                                    gravida eget neque sed ipsum.</p>
+                                            </div>
+                                        </li>
+                                        <li class="welcome_item">
+                                            <div class="welcome_icon">B</div>
+                                            <div class="welcome_description">
+                                                <p>Lorem ipsum dolor sitom amet, consectetur deron adipiscing elit.
+                                                    Donec
+                                                    facilisis consequat tellus a fermentum. Maecenas convallis, nunc
+                                                    eget
+                                                    porttitor. Praesento inamara posuere felis vulputate elit
+                                                    acquam.Pellentesque metus nulla, gravida eget neque sed, tempus
+                                                    sagittis
+                                                    ipsum nunc eget porttitor.</p>
+                                            </div>
+                                        </li>
+                                        <li class="welcome_item">
+                                            <div class="welcome_icon">C</div>
+                                            <div class="welcome_description">
+                                                <p>Mauris at metus neque, ac pretium lorem. Donec facilisis consequat
+                                                    tellus
+                                                    a fermentum. Maecenas convallis, nunc eget porttitor. Vestibulum
+                                                    dignissim accumsan ante, eu ultrices eros deron adipiscing
+                                                    elit.Pellentesque metus nulla, gravida eget neque sed, tempus
+                                                    sagittis
+                                                    ipsum facilisis consequat tellus.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="welcome_right">
+                                <img src="./images/welcome.jpg" alt="welcome_img" class="welcome_right_img">
+                                <img class="welcome_bottom" src="./images/bg.slideshow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+            </main>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer_inner">
+                        <div class="footer_logo">
+                            <img src="./images/logo.png" alt="" class="footer_logo_img">
+                        </div>
+                        <div class="info_links">
+                            <ul class="info_links_list">
+                                <li class="info_links_item"><a href="#">Головна</a></li>
+                                <li class="info_links_item"><a href="#">Про Фірму</a></li>
+                                <li class="info_links_item"><a href="#">Контакти</a></li>
+                                <li class="info_links_item"><a href="#">Зворотній зв`язок</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_resume">
+                            <h2 class="footer_title">© ПРАТ "УКРПКТІЛІСПРОМ"</h2>
+                            <p class="footer_text">З питань отримання детальної інформації:</p>
+                            <p class="footer_text">м. Івано-Франківськ, вул. Максимовича 14а.</p>
+                            <p class="footer_text">тел./факс: <span>+38 (0342) 56-86-50; +38 050 6611533, +38 097
+                                    6407189</span>.</p>
+                            <p class="footer_email">email: <a href="mailto:pkti.if@ukr.net"
+                                    class="footer_email_link">pkti.if@ukr.net</a></p>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-
+                <div class="copyright">
+                    <p class="rights">© ПРАТ УкрПКТІЛіспром. Всі права захищені.</p>
+                    <p class="developer">Designed by © <a href="mailto: wheelyhog@gmail.com">HEDGEHOG.</a> </p>
+                    <a href="https://github.com/WheelyHog"><img src="./images/hog logo.svg" alt="" class="dev-logo"></a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
