@@ -49,6 +49,11 @@ body {
     text-align: center;
 }
 
+.top_header_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .top_header {
     background-image: url('./images/bg.main.png');
     border-bottom: 12px solid #444444;
@@ -62,6 +67,16 @@ body {
     align-items: center;
 }
 
+.lang {
+    display: flex;
+    gap: 20px;
+}
+
+.lang_img {
+    width: 25px;
+    cursor: pointer;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -73,7 +88,6 @@ body {
 }
 
 .logo_text {
-    /*color: #22a2dd;*/
     color: #e0e6aa;
     text-shadow: 1px 1px #000000;
     text-transform: uppercase;
@@ -83,14 +97,17 @@ body {
 .top_header_menu_list {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
     margin-bottom: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    width: 500px;
+    background-image: url('./images/bg.main.png');
 }
 
 .top_header_menu_item {
-    background-image: url('./images/bg.main.png');
-    padding: 5px 10px;
-    border-left: .5px solid #444444;
+    border-left: 1px solid #444444;
+    padding-left: 10px
 }
 
 .top_header_menu_item a {
@@ -151,10 +168,12 @@ body {
 .slider {
     margin-top: 10px;
 }
-.slider_container{
+
+.slider_container {
     background-color: #e0e6aa;
     padding: 20px;
 }
+
 .slide_img {
     display: block;
     width: 100%;
@@ -190,7 +209,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: #e0e6aa;
     padding: 20px;
 }
@@ -260,146 +279,19 @@ body {
 .info_paragraph span {
     font-weight: 700;
 }
-
-/*--------------------------blog------------------------*/
-.blog .container {
-    padding: 50px 0;
-    border-top: 1px dotted #ccc;
-    margin-top: 50px;
+/*=========================== contacts =================*/
+.contacts_title{
+    color: #086e0b;
+    text-shadow: 1px 1px #000000;
 }
 
-.blog_head {
-    background-image: url('./images/bg.main.png');
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items: center;
-    margin-bottom: 50px;
+.info_text span{
+    font-weight: 600;
 }
 
-.blog_header {
-    color: #22a2dd;
-    font-size: 12px;
-}
-
-.search {
-    background: transparent;
-    border: 1px solid #555;
-    padding: 6px 6px 6px 30px;
-    border-radius: 3px;
-    font-size: 11px;
-    outline: none;
-    color: #ffffff;
-}
-
-.blog_inner {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.blog_category_header {
-    background: url("./images/bg.main.png");
-    color: #22a2dd;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: 10px 20px;
-    margin-bottom: 30px;
-    cursor: default;
-}
-
-.blog_category_header span {
-    color: white;
-    transition: all .5s;
-}
-
-.blog_category_header:hover span {
-    color: #22a2dd;
-}
-
-.blog_category_image {
-    border: 1px solid #000000;
-    width: 100%;
-}
-
-.blog_category_bottom {
-    width: 100%;
-    transform: translateY(-8px);
-}
-
-.blog_category_text {
-    font-size: 12px;
-    margin-bottom: 30px;
-}
-
-.readmore {
-    text-transform: uppercase;
-    background-image: url("./images/bg.main.png");
+.info_text a{
+    color: #086e0b;
     text-decoration: none;
-    color: #ffffff;
-    padding: 8px 25px;
-    float: right;
-    transition: all .5s;
-}
-
-.readmore:hover {
-    color: #22a2dd;
-}
-
-/*---------------------------welcome------------------------*/
-.welcome_inner {
-    padding: 50px 0;
-    border-top: 1px dotted #ccc;
-    display: flex;
-    gap: 30px;
-}
-
-.welcome_left {
-    flex: 2;
-}
-
-.welcome_right {
-    flex: 1;
-}
-
-.welcome_header {
-    text-transform: uppercase;
-    background-image: url('./images/bg.main.png');
-    color: #fff;
-    padding: 8px 25px;
-    text-align: center;
-}
-
-.welcome_list {
-    list-style: none;
-    margin-top: 30px;
-}
-
-.welcome_item {
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.welcome_icon {
-    background-color: #22a2dd;
-    font-size: 24px;
-    width: 50px;
-    height: 50px;
-    line-height: 40px;
-    padding: 0 10px;
-    color: #fff;
-    border-radius: 50%;
-    border: 4px solid #ccc;
-}
-
-.welcome_right_img,
-.welcome_bottom {
-    width: 100%;
-}
-
-.welcome_bottom {
-    transform: translateY(-4px);
 }
 
 /* ============================footer=============================== */
@@ -440,7 +332,7 @@ body {
     font-size: 14px;
     text-shadow: 1px 1px #000000;
     padding: 0 18px;
-    transition: all.5s;
+    transition: all .5s;
 }
 
 .info_links_item a:hover {
