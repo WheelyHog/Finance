@@ -12,7 +12,7 @@ body {
     color: #121212;
     margin: 0;
     line-height: 16px;
-    background-image: url('./images/screen2.jpg');
+    background-image: url('./images/screen7.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -21,9 +21,9 @@ body {
 
 /*---------------------header--------------------------*/
 
-.wrapper_inner {
-    background-image: url('./images/bg.overlay.png');
-}
+/*.wrapper_inner {*/
+/*    background-image: url('./images/bg.overlay.png');*/
+/*}*/
 
 .container {
     width: 1132px;
@@ -73,7 +73,8 @@ body {
 }
 
 .logo_text {
-    color: #22a2dd;
+    /*color: #22a2dd;*/
+    color: #e0e6aa;
     text-shadow: 1px 1px #000000;
     text-transform: uppercase;
     font-size: 19px;
@@ -105,10 +106,10 @@ body {
 }
 
 /*--------------------------main---------------------*/
-main {
-    background-image: url('./images/bg.overlay.png');
-    background-repeat: repeat;
-}
+/*main {*/
+/*    background-image: url('./images/bg.overlay.png');*/
+/*    background-repeat: repeat;*/
+/*}*/
 
 /*------------------------nav_menu-------------------------*/
 .main_menu_wrapper {
@@ -135,14 +136,14 @@ main {
 
 .main_menu_item a {
     text-decoration: none;
-    color: #ffffff;
+    color: #e0e6aa;
     font-size: 13px;
     text-transform: uppercase;
     transition: all .5s;
 }
 
 .main_menu_item a:hover {
-    color: #22a2dd;
+    color: rgb(34, 162, 221);
 }
 
 /* -------------------- slider ------------------------- */
@@ -150,7 +151,10 @@ main {
 .slider {
     margin-top: 10px;
 }
-
+.slider_container{
+    background-color: #e0e6aa;
+    padding: 20px;
+}
 .slide_img {
     display: block;
     width: 100%;
@@ -173,7 +177,7 @@ main {
 
 .device_name {
     padding: 5px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     border: 1px solid #333333;
     margin-top: -1px;
     text-align: center;
@@ -182,11 +186,13 @@ main {
 
 /*---------------------info---------------------------------*/
 .info_inner {
-    margin-top: 30px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-between;
     margin-bottom: 20px;
+    background-color: #e0e6aa;
+    padding: 20px;
 }
 
 .info_left {
