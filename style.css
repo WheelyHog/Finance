@@ -279,19 +279,55 @@ body {
 .info_paragraph span {
     font-weight: 700;
 }
+
 /*=========================== contacts =================*/
-.contacts_title{
+.contacts_title {
     color: #086e0b;
     text-shadow: 1px 1px #000000;
 }
 
-.info_text span{
+.info_text span {
     font-weight: 600;
 }
 
-.info_text a{
+.info_text a {
     color: #086e0b;
     text-decoration: none;
+}
+
+/* ============================== products ======================== */
+
+.product_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #086e0b;
+    border-radius: 8px;
+}
+
+.product_btn {
+    background-color: #086e0b;
+    border: 1px solid #086e0b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s;
+}
+
+.product_btn:hover {
+    background-color: #e0e6aa;
+    border: 1px solid #086e0b;
+    color: #086e0b;
 }
 
 /* ============================footer=============================== */
