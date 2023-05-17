@@ -34,11 +34,15 @@ const contacts = [
 ]
 
 const contacts_btn = document.getElementById('contacts');
+const footer_contacts_btn = document.getElementById('footer_contacts')
 const main_inner = document.getElementById('info_text');
 
 const { title, address, boss1, boss2, boss3, hr, accounting, mail, web, local } = contacts[0]
 
-contacts_btn.onclick = () => {
+contacts_btn.addEventListener('click', contacts_click)
+footer_contacts_btn.addEventListener('click', contacts_click)
+
+function contacts_click() {
     if (lang === 'ua') {
         main_inner.innerHTML = '';
         const c_title = document.createElement('h2');
@@ -98,10 +102,14 @@ const home = [
 ]
 
 const home_btn = document.getElementById('home');
+const footer_home_btn = document.getElementById('footer_home');
 
 const { first_p, list_items, last_p } = home[0]
 
-home_btn.onclick = () => {
+home_btn.addEventListener('click', home_btn_click);
+footer_home_btn.addEventListener('click', home_btn_click);
+
+function home_btn_click() {
     main_inner.innerHTML = '';
     if (lang === 'ua') {
         const first = document.createElement('p');
@@ -124,8 +132,12 @@ home_btn.onclick = () => {
 // // ======================= render about ===============================
 
 const about_btn = document.getElementById('about_firm');
+const footer_about_btn = document.getElementById('footer_about');
 
-about_btn.onclick = () => {
+about_btn.addEventListener('click', about_btn_click)
+footer_about_btn.addEventListener('click', about_btn_click)
+
+function about_btn_click() {
     main_inner.innerHTML = '';
     if (lang === 'ua') {
         const first = document.createElement('p');

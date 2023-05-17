@@ -157,6 +157,7 @@ body {
     font-size: 13px;
     text-transform: uppercase;
     transition: all .5s;
+    cursor: pointer;
 }
 
 .main_menu_item a:hover {
@@ -369,6 +370,7 @@ body {
     text-shadow: 1px 1px #000000;
     padding: 0 18px;
     transition: all .5s;
+    cursor: pointer;
 }
 
 .info_links_item a:hover {
