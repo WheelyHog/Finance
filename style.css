@@ -329,8 +329,9 @@ body {
     border-radius: 5px;
     width: 120px;
     cursor: pointer;
-    color: #fff;
+    color: #e0e6aa;
     transition: all .3s;
+    font-weight: 600;
 }
 
 .product_btn:hover {
