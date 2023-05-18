@@ -340,6 +340,28 @@ body {
     color: #086e0b;
 }
 
+/* ========================= product info==================== */
+.product_title {
+    color: #086e0b;
+}
+
+.product_image_container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.table_head {
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.table_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid #086e0b; */
+}
+
 /* ============================footer=============================== */
 
 .footer {

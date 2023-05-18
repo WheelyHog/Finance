@@ -167,6 +167,34 @@ const products = [
         short: 'Рубальна машина барабанного типу, призначена для подрібнення деревинних відходів (відходи деревообробки ...',
         description: "Рубальна машина барабанного типу, призначена для подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого виробництва та ін.) на технологічну або паливну тріску, деревинну масу для брикетування, а також на тріску для копчення м'яса та риби.",
         button: 'Детальніше ...',
+        data: [
+            ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png', './images/products/mrb_2a/mrb-2a_3.png']],
+            ['p', ['1 - станина; 2 - сітка; 3, 9 - контрніж; 4 - ріжучий ніж ; 5 - ротор;']],
+            ['p', ['6 - кришка; 7 - шторка; 8 - загрузочна горловина ; 10 - привід.']],
+            ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/zuuQX9ek_jU" title="Руб. машина МРБ - 2А" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
+            ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/7IEMv9cvBl0" title="рубальна машина МРБ 2А ПРАТ УКРПКТІЛІСПРОМ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
+            ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/CoLVGv96370" title="МАШИНА РУБАЛЬНА ДЛЯ ПЕРЕРОБКИ КУСКОВИХ ВІДХОДІВ УРМ-5А." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
+            ['thead', 'ТЕХНІЧНІ ХАРАКТЕРИСТИКИ'],
+            ['tsubhead', ['', 'МРБ-2А', 'МРБ-2Г']],
+            ['header', ['Продуктивність, м3/год:', '', '']],
+            ['param', ['деревинна маса для брикетування', '1,5 - 2', '2 - 2,5']],
+            ['param', ['технологічна або паливна тріска', 6, 9]],
+            ['param', ['Види перероблюваної сировини', 'відходи шпону, ДСП, ДВП і деревообробки', 'відходи шпону, ДСП, ДВП і деревообробки']],
+            ['param', ['Діаметр ротора, мм', 425, 425]],
+            ['param', ['Частота обертання ротора, хв-1', 1470, 1470]],
+            ['param', ['Кількість ножів, шт', 8, 12]],
+            ['param', ['Установлена потужність, кВт', 'від 22', 'від 30']],
+            ['param', ['Розмір завантажувальної горловини, мм', '230 Х 350', '230 Х 550']],
+            ['header', ['Габаритні розміри, мм:']],
+            ['param', ['довжина', 1540, 1600]],
+            ['param', ['ширина', 830, 1010]],
+            ['param', ['висота', 1410, 1410]],
+            ['header', ['Розміри перероблюваних відходів, мм:']],
+            ['param', ['умовний діаметр', 80, 80]],
+            ['param', ['ширина', 350, 530]],
+            ['param', ['довжина', 1500, 1500]],
+            ['param', ['Маса, кг', 1000, 1300]],
+        ]
     },
     {
         id: 2,
@@ -175,6 +203,31 @@ const products = [
         short: 'Призначення: Подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого ...',
         description: "Призначення: Подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого виробництва та ін.) на технологічну або паливну тріску, деревинну масу для брикетування та подрібнення технологічної тріски на деревинну масу для брикетування.",
         button: 'Детальніше ...',
+        data: [
+            ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png', './images/products/mrb_2a/mrb-2a_3.png']],
+            ['p', ['1 - станина; 2 - сітка; 3, 9 - контрніж; 4 - ріжучий ніж ; 5 - ротор;']],
+            ['p', ['6 - кришка; 7 - шторка; 8 - загрузочна горловина ; 10 - привід.']],
+            ['thead', 'ТЕХНІЧНІ ХАРАКТЕРИСТИКИ'],
+            ['header', ['Продуктивність, м3/год (насипних):']],
+            ['param', ['технологічна або паливна тріска', 15]],
+            ['param', ['деревинна маса для брикетування', 6]],
+            ['param', ['переробка тріски на деревинну масу', 20]],
+            ['param', ['Види перероблюваної сировини:', 'відходи шпону, ДСП, ДВП та деревообробки']],
+            ['param', ['Діаметр ротора, мм', 600]],
+            ['param', ['Частота обертання ротора, хв-1', 1000]],
+            ['param', ['Кількість ножів, шт', 6]],
+            ['param', ['Установлена потужність, кВт', 55]],
+            ['param', ['Розмір завантажувальної горловини, мм', '400 х 600']],
+            ['header', ['Габаритні розміри, мм:']],
+            ['param', ['довжина', 1795]],
+            ['param', ['ширина', 1135]],
+            ['param', ['висота', 1300]],
+            ['header', ['Розміри перероблюваних відходів, мм:']],
+            ['param', ['умовний діаметр', 120]],
+            ['param', ['ширина', 600]],
+            ['param', ['довжина', 1500]],
+            ['param', ['Маса, кг', 1700]],
+        ]
     },
     {
         id: 3,
@@ -183,6 +236,32 @@ const products = [
         short: 'Рубальна машина барабанного типу, призначена для подрібнення деревинних відходів (відходи деревообробки ...',
         description: "Рубальна машина барабанного типу, призначена для подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого виробництва та ін.) на технологічну або паливну тріску, деревинну масу для брикетування, а також на тріску для копчення м'яса та риби.",
         button: 'Детальніше ...',
+        data: [
+            ['images', ['./images/products/mrb_2ap/mrb-2ap_1.png']],
+            ['p', ['1 - патрубок відсмоктувальний; 2 - ротор; 3 - верхній механізм подачі; 4 - станина; 5 - транспортер;']],
+            ['p', ['6 - нижній механізм подачі; 7 - сітка.']],
+            ['images', ['./images/products/mrb_2ap/mrb-2ap_2.png']],
+            ['thead', 'ТЕХНІЧНІ ХАРАКТЕРИСТИКИ'],
+            ['header', ['Продуктивність, м3/год:']],
+            ['param', ['при довжині тріски 15 - 35 мм', 10]],
+            ['param', ['при довжині тріски 5 - 10 мм', 5]],
+            ['param', ['при довжині тріски 2 - 3 мм', 1.6]],
+            ['param', ['Діаметр ротора, мм', 425]],
+            ['param', ['Частота обертання ротора, хв-1', '550 - 1470']],
+            ['param', ['Кількість ножів, шт', 8]],
+            ['param', ['Установлена потужність, кВт', 'від 33']],
+            ['param', ['Механізм подавання', 'валковий']],
+            ['param', ['Швидкість подачі, м/с', '0,25 - 0,75']],
+            ['header', ['Габаритні розміри, мм:']],
+            ['param', ['довжина', 2500]],
+            ['param', ['ширина', 1050]],
+            ['param', ['висота', 1600]],
+            ['header', ['Розміри перероблюваних відходів, мм:']],
+            ['param', ['умовний діаметр', 120]],
+            ['param', ['ширина', 300]],
+            ['param', ['довжина', 3000]],
+            ['param', ['Маса, кг', 1500]],
+        ]
     },
     {
         id: 4,
@@ -236,7 +315,9 @@ const products = [
 
 const products_btn = document.getElementById('products')
 
-products_btn.onclick = () => {
+products_btn.addEventListener('click', products_btn_click)
+
+function products_btn_click() {
     main_inner.innerHTML = '';
     const product_list = document.createElement('div');
     product_list.className = 'product_list';
@@ -259,6 +340,7 @@ products_btn.onclick = () => {
             const details_btn = document.createElement('button');
             details_btn.innerText = elem.button;
             details_btn.className = 'product_btn'
+            details_btn.addEventListener('click', () => render_product(elem.id))
 
             product_div.append(product_img, product_title, product_description, details_btn);
             product_list.append(product_div);
@@ -267,7 +349,65 @@ products_btn.onclick = () => {
     }
 }
 
+// ================================= render product info=================
 
+function render_product(id) {
+    if (lang === 'ua') {
+        main_inner.innerHTML = '';
+
+        const { title, description, data } = products[id - 1]
+
+        const product_title = document.createElement('h3');
+        product_title.innerHTML = title;
+        product_title.className = 'product_title';
+
+        const product_description = document.createElement('p');
+        product_description.innerHTML = description;
+
+        main_inner.append(product_title, product_description);
+
+        data.map(elem => {
+            if (elem[0] === 'images') {
+                const prod_image_container = document.createElement('div');
+                prod_image_container.className = 'product_image_container';
+                elem[1].map(el => {
+                    const product_image = document.createElement('img');
+                    product_image.src = el;
+                    prod_image_container.append(product_image)
+                })
+                main_inner.append(prod_image_container)
+            } else if (elem[0] === 'p') {
+                const prod_p_container = document.createElement('div');
+                elem[1].map(el => {
+                    const paragraph = document.createElement('p');
+                    paragraph.innerHTML = el;
+                    prod_p_container.append(paragraph)
+                })
+                main_inner.append(prod_p_container);
+            } else if (elem[0] === 'thead') {
+                const thead = document.createElement('p');
+                thead.innerHTML = elem[1];
+                thead.className = 'table_head';
+                main_inner.append(thead);
+            } else if (elem[0] === 'tsubhead' || elem[0] === 'header' || elem[0] === 'param') {
+                const thead_container = document.createElement('div');
+                thead_container.className = 'table_row'
+                elem[1].map(el => {
+                    const thead = document.createElement('p');
+                    thead.innerHTML = el;
+                    thead_container.append(thead)
+                })
+                main_inner.append(thead_container)
+            } else if (elem[0] === 'video') {
+                const video = document.createElement('div');
+                video.innerHTML = elem[1];
+                video.className = 'video_frame';
+                main_inner.append(video);
+            }
+        })
+
+    }
+}
 
 
 
@@ -293,4 +433,5 @@ let swiper = new Swiper(".mySwiper", {
         disableOnInteraction: false,
     },
 });
+
 
