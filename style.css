@@ -197,7 +197,7 @@ body {
 
 .device_name {
     padding: 5px;
-    /*background-color: #fff;*/
+    color: #086e0b;
     border: 1px solid #333333;
     margin-top: -1px;
     text-align: center;
