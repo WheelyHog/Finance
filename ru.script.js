@@ -90,7 +90,7 @@ function render_slider() {
         {
             id: 15,
             image: './images/slider/chain_table_b (1).png',
-            name: 'Ланцюговий стіл для подачі заготовок',
+            name: 'МЛанцюговий стіл для подачі заготовок',
             bottom_img: './images/bg.slideshow.png'
         },
         {

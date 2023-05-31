@@ -1,4 +1,4 @@
-let lang = 'ua';
+let lang = 'en';
 
 // ===================== render slider =====================
 function render_slider() {
@@ -6,121 +6,121 @@ function render_slider() {
         {
             id: 1,
             image: './images/slider/mrb-2a.png',
-            name: 'МРБ-2А, МРБ-2Г',
+            name: 'MRB-2А, MRB-2G',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 2,
             image: './images/slider/skip1.png',
-            name: 'Технологічна тріска',
+            name: 'Technological chips',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 3,
             image: './images/slider/urm-5a_b (1).png',
-            name: 'УРМ-5А',
+            name: 'URM-5A',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 4,
             image: './images/slider/skip2.png',
-            name: 'Паливна тріска',
+            name: 'Fuel chips',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 5,
             image: './images/slider/mrb-2ap.png',
-            name: 'МРБ-2АП',
+            name: 'MRB-2AP',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 6,
             image: './images/slider/skip3.png',
-            name: 'Тирса',
+            name: 'Sawdust',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 7,
             image: './images/slider/Urm-5.png',
-            name: 'УРМ-5, УРМ-5М',
+            name: 'URM-5, URM-5М',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 8,
             image: './images/slider/skip4.png',
-            name: 'Паливна тріска',
+            name: 'Fuel chips',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 9,
             image: './images/slider/do51.png',
-            name: 'ДО-51',
+            name: 'DO-51',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 10,
             image: './images/slider/skip5.png',
-            name: 'Паливні брикети',
+            name: 'Fuel briquettes',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 11,
             image: './images/slider/press.png',
-            name: 'Прес брикетувальний УБТ-350',
+            name: 'Briquetting press UBT-350',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 12,
             image: './images/slider/skip3.png',
-            name: 'Тирса',
+            name: 'Sawdust',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 13,
             image: './images/slider/avtomat.png',
-            name: 'Автоматичний пристрій для різки брикетів',
+            name: 'Automatic device for cutting briquettes',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 14,
             image: './images/slider/skip2.png',
-            name: 'Паливна тріска',
+            name: 'Fuel chips',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 15,
             image: './images/slider/chain_table_b (1).png',
-            name: 'Ланцюговий стіл для подачі заготовок',
+            name: 'Chain table for feeding workpieces',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 16,
             image: './images/slider/skip3.png',
-            name: 'Тирса',
+            name: 'Sawdust',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 17,
             image: './images/slider/vibrostol.png',
-            name: 'Вібростіл для подачі заготовок',
+            name: 'Vibrating table for supplying blanks',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 18,
             image: './images/slider/skip2.png',
-            name: 'Паливна тріска',
+            name: 'Fuel chips',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 19,
             image: './images/slider/konveyer.png',
-            name: 'Скребковий конвейер',
+            name: 'Scraper conveyor',
             bottom_img: './images/bg.slideshow.png'
         },
         {
             id: 1,
             image: './images/slider/skip3.png',
-            name: 'Паливна тріска',
+            name: 'Fuel chips',
             bottom_img: './images/bg.slideshow.png'
         },
     ]
@@ -160,47 +160,47 @@ const info_menu_list = [
     {
         id: 1,
         link: '#',
-        title: 'МРБ-2А, МРБ-2Г',
+        title: 'MRB-2A, MRB-2G',
     },
     {
         id: 2,
         link: '#',
-        title: 'УРМ-5А',
+        title: 'URM-5A',
     },
     {
         id: 3,
         link: '#',
-        title: 'МРБ-2АП',
+        title: 'MRB-2AP',
     },
     {
         id: 4,
         link: '#',
-        title: 'УРМ-5, УРМ-5М',
+        title: 'URM-5, URM-5M',
     },
     {
         id: 5,
         link: '#',
-        title: 'ДО-51',
+        title: 'DO-51',
     },
     {
         id: 6,
         link: '#',
-        title: 'Прес брикетувальний УБТ-350',
+        title: 'Briquetting press UBT-350',
     },
     {
         id: 7,
         link: '#',
-        title: 'Автоматичний пристрій для різки брикетів',
+        title: 'Automatic device for cutting briquettes',
     },
     {
         id: 8,
         link: '#',
-        title: 'Ланцюгові столи та вібростоли',
+        title: 'Chain tables and vibrating tables',
     },
     {
         id: 1,
         link: '#',
-        title: 'Транспортери і конвейери',
+        title: 'Transporters and conveyors',
     },
 ]
 const info_menu = document.querySelector('.info_menu');
@@ -226,91 +226,33 @@ render_info_menu();
 const contacts = [
     {
         id: 1,
-        language: 'ua',
-        title: 'Контакти',
-        address: {
-            title: 'Адреса:',
-            place: 'ПРАТ "Український проектно-конструкторський технологічний інститут лісової промисловості", 76006, Україна, м. Івано-Франківськ, вул. Максимовича 14а.'
-        },
-        boss1: {
-            seat: 'Голова спостережної ради:',
-            fullname: 'Божак Богдан Васильович,',
-            phones: 'моб. +380 506 611533; +380 976 407095'
-        },
-        boss2: {
-            seat: 'Голова правління:',
-            fullname: 'Хандога Василь Йосипович,',
-            phones: 'моб. +380 993 832736, +380 976 407189'
-        },
-        boss3: {
-            seat: 'Заступник голови правління з проектної роботи:',
-            fullname: 'Турчин Богдан Якович,',
-            phones: 'моб. +380 971 662601'
-        },
-        hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
-        accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
-        mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
-        local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
-    },
-    {
-        id: 2,
         language: 'en',
-        title: 'Контакти',
+        title: 'Contacts',
         address: {
-            title: 'Адреса:',
-            place: 'ПРАТ "Український проектно-конструкторський технологічний інститут лісової промисловості", 76006, Україна, м. Івано-Франківськ, вул. Максимовича 14а.'
+            title: 'Address:',
+            place: 'PJSC "Ukrainian Design and Engineering Technological Institute of Forest Industry", 76006, Ukraine, Ivano-Frankivsk, street Maksimovicha 14a.'
         },
         boss1: {
-            seat: 'Голова спостережної ради:',
-            fullname: 'Божак Богдан Васильович,',
-            phones: 'моб. +380 506 611533; +380 976 407095'
+            seat: 'Chairman of the Supervisory Board:',
+            fullname: 'Bozhak Bohdan Vasyliovych,',
+            phones: 'mob. +380 506 611533; +380 976 407095'
         },
         boss2: {
-            seat: 'Голова правління:',
-            fullname: 'Хандога Василь Йосипович,',
-            phones: 'моб. +380 993 832736, +380 976 407189'
+            seat: 'Chairman of the Board:',
+            fullname: 'Khandoga Vasyl Yosypovych,',
+            phones: 'mob. +380 993 832736, +380 976 407189'
         },
         boss3: {
-            seat: 'Заступник голови правління з проектної роботи:',
-            fullname: 'Турчин Богдан Якович,',
-            phones: 'моб. +380 971 662601'
+            seat: 'Deputy Chairman of the Board for project work:',
+            fullname: 'Turchin Bogdan Yakovich,',
+            phones: 'mob. +380 971 662601'
         },
-        hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
-        accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
+        hr: 'HR department: tel./fax: +38 (0342) 50-05-21',
+        accounting: 'Accounting: tel. +38 (0342) 50-05-21',
         mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
-        local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
+        web: 'website: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
+        local: 'Where we are: 76006, Ivano-Frankivsk, st. Maksymovycha 14а.'
     },
-    {
-        id: 3,
-        language: 'ru',
-        title: 'Контакти',
-        address: {
-            title: 'Адреса:',
-            place: 'ПРАТ "Український проектно-конструкторський технологічний інститут лісової промисловості", 76006, Україна, м. Івано-Франківськ, вул. Максимовича 14а.'
-        },
-        boss1: {
-            seat: 'Голова спостережної ради:',
-            fullname: 'Божак Богдан Васильович,',
-            phones: 'моб. +380 506 611533; +380 976 407095'
-        },
-        boss2: {
-            seat: 'Голова правління:',
-            fullname: 'Хандога Василь Йосипович,',
-            phones: 'моб. +380 993 832736, +380 976 407189'
-        },
-        boss3: {
-            seat: 'Заступник голови правління з проектної роботи:',
-            fullname: 'Турчин Богдан Якович,',
-            phones: 'моб. +380 971 662601'
-        },
-        hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
-        accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
-        mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
-        local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
-    }
 ]
 
 const contacts_btn = document.getElementById('contacts');
@@ -323,7 +265,7 @@ contacts_btn.addEventListener('click', contacts_click)
 footer_contacts_btn.addEventListener('click', contacts_click)
 
 function contacts_click() {
-    if (lang === 'ua') {
+    if (lang === 'en') {
         main_inner.innerHTML = '';
         const c_title = document.createElement('h2');
         c_title.innerText = title;
@@ -367,19 +309,19 @@ function contacts_click() {
 const home = [
     {
         id: 1,
-        language: 'ua',
+        language: 'en',
         first_p: {
-            title: 'ПРАТ "УКРПКТІЛІСПРОМ"',
-            text: ' є одним із найбільших вітчизняних виробників:'
+            title: 'PJSC "UKRPKTILESPROM"',
+            text: ' is one of the largest domestic producers:'
         },
         list_items: [
-            'Стаціонарних рубальних машин барабанного типу (подрібнювачі) для лісопильного сектору, включаючи переробку деревних відходів в технологічну та паливну тріску, а також аксесуари, такі як ланцюгові столи та вібростоли подачі заготовок, стрічкові транспортери, конвейєри для завантаження та транспортування різної довжини та ширини, адаптовані до індивідуальних потреб клієнта.',
-            'Шнекових пресів для брикетування тирси, соломи, лузги соняшника.',
-            'Автоматичних пристроїв для різки брикетів.'
+            'Stationary drum-type chipping machines (shredders) for the sawmill sector, including the processing of wood waste into technological and fuel chips, as well as accessories such as chain tables and vibrating tables for feeding workpieces, belt conveyors, conveyors for loading and transportation of various lengths and widths, adapted to individual needs of the client.',
+            'Screw presses for briquetting sawdust, straw, sunflower husks.',
+            'Automatic devices for cutting briquettes.'
         ],
         last_p: {
-            title: 'ПРАТ "УКРПКТІЛІСПРОМ"',
-            text: 'розпочала свою діяльність у 1961 році як проектна організація. 60% лісопильних, деревообробних, меблевих і плитних підприємств України збудовані за нашими проектами. Наш багаторічний досвід у проектуванні та виробництві машин для подрібнення деревних відходів надає професійну допомогу у виборі конкретної машини з урахуванням продуктивності та призначення. Завдяки добре навченому персоналу та співпраці з клієнтами ми можемо виготовляти машини, адаптовані до їхніх індивідуальних потреб. Висока якість і надійність нашої техніки робить послуги, що надаються компаніями, які співпрацюють з нами, набагато привабливішими.'
+            title: 'PJSC "UKRPKTILESPROM"',
+            text: 'started its activities in 1961 as a project organization. 60% of sawmills, woodworking, furniture and slab enterprises of Ukraine were built according to our projects. Our years of experience in the design and manufacture of wood chipping machines provide professional assistance in selecting a specific machine based on performance and purpose. Thanks to our well-trained staff and cooperation with customers, we are able to manufacture machines adapted to their individual needs. The high quality and reliability of our equipment makes the services provided by the companies cooperating with us much more attractive.'
         }
     }
 ]
@@ -394,7 +336,7 @@ footer_home_btn.addEventListener('click', render_home);
 
 function render_home() {
     main_inner.innerHTML = '';
-    if (lang === 'ua') {
+    if (lang === 'en') {
         const first = document.createElement('p');
         first.innerHTML = `<span>${first_p.title}</span> ${first_p.text}`
 
@@ -424,7 +366,7 @@ footer_about_btn.addEventListener('click', about_btn_click)
 
 function about_btn_click() {
     main_inner.innerHTML = '';
-    if (lang === 'ua') {
+    if (lang === 'en') {
         const first = document.createElement('p');
         first.innerHTML = `<span>${first_p.title}</span> ${first_p.text}`
 
