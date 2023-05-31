@@ -47,7 +47,7 @@ function render_slider() {
         },
         {
             id: 8,
-            image: '/images/slider/skip4.png',
+            image: './images/slider/skip4.png',
             name: 'Паливна тріска',
             bottom_img: './images/bg.slideshow.png'
         },
