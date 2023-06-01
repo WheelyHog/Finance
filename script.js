@@ -198,7 +198,7 @@ const info_menu_list = [
         title: 'Ланцюгові столи та вібростоли',
     },
     {
-        id: 1,
+        id: 9,
         link: '#',
         title: 'Транспортери і конвейери',
     },
@@ -212,6 +212,10 @@ function render_info_menu() {
         const link = document.createElement('a');
         link.href = elem.link;
         link.innerText = elem.title;
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            render_product(elem.id)
+        })
 
         li.append(link);
         info_menu.append(li);
@@ -250,65 +254,7 @@ const contacts = [
         hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
         accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
         mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
-        local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
-    },
-    {
-        id: 2,
-        language: 'en',
-        title: 'Контакти',
-        address: {
-            title: 'Адреса:',
-            place: 'ПРАТ "Український проектно-конструкторський технологічний інститут лісової промисловості", 76006, Україна, м. Івано-Франківськ, вул. Максимовича 14а.'
-        },
-        boss1: {
-            seat: 'Голова спостережної ради:',
-            fullname: 'Божак Богдан Васильович,',
-            phones: 'моб. +380 506 611533; +380 976 407095'
-        },
-        boss2: {
-            seat: 'Голова правління:',
-            fullname: 'Хандога Василь Йосипович,',
-            phones: 'моб. +380 993 832736, +380 976 407189'
-        },
-        boss3: {
-            seat: 'Заступник голови правління з проектної роботи:',
-            fullname: 'Турчин Богдан Якович,',
-            phones: 'моб. +380 971 662601'
-        },
-        hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
-        accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
-        mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
-        local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
-    },
-    {
-        id: 3,
-        language: 'ru',
-        title: 'Контакти',
-        address: {
-            title: 'Адреса:',
-            place: 'ПРАТ "Український проектно-конструкторський технологічний інститут лісової промисловості", 76006, Україна, м. Івано-Франківськ, вул. Максимовича 14а.'
-        },
-        boss1: {
-            seat: 'Голова спостережної ради:',
-            fullname: 'Божак Богдан Васильович,',
-            phones: 'моб. +380 506 611533; +380 976 407095'
-        },
-        boss2: {
-            seat: 'Голова правління:',
-            fullname: 'Хандога Василь Йосипович,',
-            phones: 'моб. +380 993 832736, +380 976 407189'
-        },
-        boss3: {
-            seat: 'Заступник голови правління з проектної роботи:',
-            fullname: 'Турчин Богдан Якович,',
-            phones: 'моб. +380 971 662601'
-        },
-        hr: 'Відділ кадрів: тел./факс: +38 (0342) 50-05-21',
-        accounting: 'Бухгалтерія: тел. +38 (0342) 50-05-21',
-        mail: 'e-mail: <a href="mailto:pkti.if@ukr.net">pkti.if@ukr.net</a>',
-        web: 'веб сайт: <a href="www.pkti.if.ua">www.pkti.if.ua<a></a>',
+        web: 'веб сайт: <a href="http://pkti.if.ua">www.pkti.if.ua</a>',
         local: 'Де ми знаходимось: 76006, м. Івано-Франківськ, вул. Максимовича 14а.'
     }
 ]
@@ -458,7 +404,6 @@ const products = [
             ['p', ['6 - кришка; 7 - шторка; 8 - загрузочна горловина ; 10 - привід.']],
             ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/zuuQX9ek_jU" title="Руб. машина МРБ - 2А" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
             ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/7IEMv9cvBl0" title="рубальна машина МРБ 2А ПРАТ УКРПКТІЛІСПРОМ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
-            ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/CoLVGv96370" title="МАШИНА РУБАЛЬНА ДЛЯ ПЕРЕРОБКИ КУСКОВИХ ВІДХОДІВ УРМ-5А." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
             ['thead', 'ТЕХНІЧНІ ХАРАКТЕРИСТИКИ'],
             ['tsubhead', ['', 'МРБ-2А', 'МРБ-2Г']],
             ['header', ['Продуктивність, м3/год:', '', '']],
@@ -489,9 +434,8 @@ const products = [
         description: "Призначення: Подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого виробництва та ін.) на технологічну або паливну тріску, деревинну масу для брикетування та подрібнення технологічної тріски на деревинну масу для брикетування.",
         button: 'Детальніше ...',
         data: [
-            ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png', './images/products/mrb_2a/mrb-2a_3.png']],
-            ['p', ['1 - станина; 2 - сітка; 3, 9 - контрніж; 4 - ріжучий ніж ; 5 - ротор;']],
-            ['p', ['6 - кришка; 7 - шторка; 8 - загрузочна горловина ; 10 - привід.']],
+            ['images', ['./images/products/urm_5a/urm-5a.png']],
+            ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/CoLVGv96370" title="МАШИНА РУБАЛЬНА ДЛЯ ПЕРЕРОБКИ КУСКОВИХ ВІДХОДІВ УРМ-5А." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
             ['thead', 'ТЕХНІЧНІ ХАРАКТЕРИСТИКИ'],
             ['header', ['Продуктивність, м3/год (насипних):']],
             ['param', ['технологічна або паливна тріска', 15]],
@@ -700,7 +644,7 @@ const products = [
     },
     {
         id: 9,
-        title: 'ТРАНСПОРТЕРИ І КОНВЕЙЕРИ.',
+        title: 'ТРАНСПОРТЕРИ І КОНВЕЙЕРИ',
         small_img: './images/small_img/konveyer_s.png',
         short: 'Призначені для подачі матеріалів та заготовок в зону обробки ...',
         description: "Призначені для подачі матеріалів та заготовок в зону обробки.",
