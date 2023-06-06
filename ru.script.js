@@ -753,8 +753,20 @@ function render_product(id) {
 
 
 let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 10,
+    breakpoints: {
+        // when window width is >= 320px
+        1024: {
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
+    },
     loop: true,
     pagination: {
         el: ".swiper-pagination",
@@ -764,6 +776,6 @@ let swiper = new Swiper(".mySwiper", {
         delay: 6000,
         disableOnInteraction: false,
     },
-});
 
+});
 
