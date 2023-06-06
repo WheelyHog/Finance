@@ -140,6 +140,10 @@ body {
     .logo_text {
         font-size: 20px;
     }
+
+    .container {
+        padding: 0 5px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -228,6 +232,12 @@ body {
     margin-top: -1px;
     text-align: center;
     font-weight: 600;
+}
+
+@media (max-width: 590px) {
+    .slider_container {
+        padding: 5px;
+    }
 }
 
 /*---------------------info---------------------------------*/
@@ -344,6 +354,10 @@ body {
 
     .info_left {
         justify-content: center;
+    }
+
+    .info_inner {
+        padding: 5px;
     }
 }
 
