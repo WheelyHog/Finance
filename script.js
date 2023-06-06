@@ -760,10 +760,10 @@ let swiper = new Swiper(".mySwiper", {
         1024: {
             slidesPerView: 3,
         },
-        640: {
+        900: {
             slidesPerView: 2,
         },
-        320: {
+        640: {
             slidesPerView: 1,
         }
     },
