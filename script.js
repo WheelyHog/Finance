@@ -4,10 +4,12 @@ let lang = 'ua';
 const burger = document.querySelector('.burger');
 const burger_line_1 = document.querySelector('.burger_line_1')
 const burger_line_2 = document.querySelector('.burger_line_2')
+const modal = document.querySelector('.modal');
 const menu_active = false;
 
 burger.addEventListener('click', () => {
     burger.classList.toggle('burger_active');
+    modal.classList.toggle('modal_active');
     menu_active = !menu_active;
 
 })
