@@ -494,7 +494,7 @@ body {
 
 .product_image_container {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: space-between;
 }
 
@@ -507,6 +507,22 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* border: 1px solid #086e0b; */
+}
+
+.table_row p {
+    margin-right: 20px;
+}
+
+@media (max-width:1200px) {
+    .product_image_container {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1110px) {
+    iframe {
+        width: 100%;
+    }
 }
 
 /* ============================footer=============================== */

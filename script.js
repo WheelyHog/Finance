@@ -399,7 +399,8 @@ const products = [
         description: "Рубальна машина барабанного типу, призначена для подрібнення деревинних відходів (відходи деревообробки, шпону-рванини, відходи меблевого виробництва та ін.) на технологічну або паливну тріску, деревинну масу для брикетування, а також на тріску для копчення м'яса та риби.",
         button: 'Детальніше ...',
         data: [
-            ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png', './images/products/mrb_2a/mrb-2a_3.png']],
+            // ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png', './images/products/mrb_2a/mrb-2a_3.png']],
+            ['images', ['./images/products/mrb_2a/mrb-2a_1.png', './images/products/mrb_2a/mrb-2a_2.png']],
             ['p', ['1 - станина; 2 - сітка; 3, 9 - контрніж; 4 - ріжучий ніж ; 5 - ротор;']],
             ['p', ['6 - кришка; 7 - шторка; 8 - загрузочна горловина ; 10 - привід.']],
             ['video', '<iframe width="640" height="480" src="https://www.youtube.com/embed/zuuQX9ek_jU" title="Руб. машина МРБ - 2А" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'],
