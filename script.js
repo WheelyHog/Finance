@@ -1,5 +1,18 @@
 let lang = 'ua';
 
+// ======================= burger menu ==================
+const burger = document.querySelector('.burger');
+const burger_line_1 = document.querySelector('.burger_line_1')
+const burger_line_2 = document.querySelector('.burger_line_2')
+const menu_active = false;
+
+burger.addEventListener('click', () => {
+    burger.classList.toggle('burger_active');
+    menu_active = !menu_active;
+
+})
+
+
 // ===================== render slider =====================
 function render_slider() {
     const slider = [
