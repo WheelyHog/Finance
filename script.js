@@ -7,18 +7,19 @@ const burger_line_2 = document.querySelector('.burger_line_2')
 const modal = document.querySelector('.modal');
 let menu_active = false;
 
-burger.addEventListener('click', () => {
+burger.addEventListener('click', toggleMenuActive);
+
+function toggleMenuActive() {
     burger.classList.toggle('burger_active');
     modal.classList.toggle('modal_active');
     menu_active = !menu_active;
-    console.log(menu_active);
     if (menu_active === true) {
         document.body.style.overflow = 'hidden';
     } else {
         document.body.style.overflow = '';
     }
-
-})
+    console.log(menu_active);
+}
 
 
 // ===================== render slider =====================
@@ -281,16 +282,23 @@ const contacts = [
 ]
 
 const contacts_btn = document.getElementById('contacts');
+const mob_contacts_btn = document.getElementById('mob_contacts')
 const footer_contacts_btn = document.getElementById('footer_contacts')
 const main_inner = document.getElementById('info_text');
 
 const { title, address, boss1, boss2, boss3, hr, accounting, mail, web, local } = contacts[0]
 
-contacts_btn.addEventListener('click', contacts_click)
+contacts_btn.addEventListener('click', contacts_click);
+mob_contacts_btn.addEventListener('click', contacts_click);
 footer_contacts_btn.addEventListener('click', contacts_click)
 
 function contacts_click() {
     if (lang === 'ua') {
+
+        if (menu_active) {
+            toggleMenuActive()
+        }
+
         main_inner.innerHTML = '';
         const c_title = document.createElement('h2');
         c_title.innerText = title;
@@ -352,14 +360,20 @@ const home = [
 ]
 
 const home_btn = document.getElementById('home');
+const mob_home_btn = document.getElementById('mob_home');
 const footer_home_btn = document.getElementById('footer_home');
 
 const { first_p, list_items, last_p } = home[0]
 
 home_btn.addEventListener('click', render_home);
 footer_home_btn.addEventListener('click', render_home);
+mob_home_btn.addEventListener('click', render_home);
 
 function render_home() {
+    if (menu_active) {
+        toggleMenuActive()
+    }
+
     main_inner.innerHTML = '';
     if (lang === 'ua') {
         const first = document.createElement('p');
@@ -384,14 +398,21 @@ render_home();
 // // ======================= render about ===============================
 
 const about_btn = document.getElementById('about_firm');
+const mob_about_btn = document.getElementById('mob_about_firm');
 const footer_about_btn = document.getElementById('footer_about');
 
 about_btn.addEventListener('click', about_btn_click)
+mob_about_btn.addEventListener('click', about_btn_click)
 footer_about_btn.addEventListener('click', about_btn_click)
 
 function about_btn_click() {
     main_inner.innerHTML = '';
     if (lang === 'ua') {
+
+        if (menu_active) {
+            toggleMenuActive()
+        }
+
         const first = document.createElement('p');
         first.innerHTML = `<span>${first_p.title}</span> ${first_p.text}`
 
@@ -678,8 +699,10 @@ const products = [
 ]
 
 const products_btn = document.getElementById('products')
+const mob_products_btn = document.getElementById('mob_products')
 
-products_btn.addEventListener('click', products_btn_click)
+products_btn.addEventListener('click', products_btn_click);
+mob_products_btn.addEventListener('click', products_btn_click);
 
 function products_btn_click() {
     main_inner.innerHTML = '';
@@ -687,6 +710,11 @@ function products_btn_click() {
     product_list.className = 'product_list';
 
     if (lang === 'ua') {
+
+        if (menu_active) {
+            toggleMenuActive()
+        }
+
         products.map(elem => {
             const product_div = document.createElement('div')
             product_div.className = 'product_card';

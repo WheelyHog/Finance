@@ -164,6 +164,7 @@ body {
 .mob_menu_item {
     color: #e0e6aa;
     font-size: 24px;
+    cursor: pointer;
 }
 
 /* ================= burger =================== */
