@@ -102,7 +102,8 @@ body {
     align-items: center;
     gap: 20px;
     padding: 5px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 200px;
     background-image: url('./images/bg.main.png');
 }
 
@@ -172,18 +173,16 @@ body {
         display: none;
     }
 
-    .burger {
-        display: block;
-    }
-}
-
-@media (max-width: 654px) {
     .logo_text {
         font-size: 20px;
     }
 
     .container {
         padding: 0 5px;
+    }
+
+    .burger {
+        display: block;
     }
 }
 
