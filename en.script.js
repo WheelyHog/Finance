@@ -571,7 +571,7 @@ const products = [
             ['param', ['Speed ​​of input feed, m/s', '0,18 - 0,6', '0,18 - 0,6']],
             ['header', ['Dimensions of recyclable waste, mm:']],
             ['param', ['thickness (diameter), maximum', 210, 210]],
-            ['param', ['width', 400, 400]],
+            ['param', ['width', 400, 600]],
             ['param', ['length', 'up to 6000', 'up to 6000']],
             ['param', ['Installed power, kW', 'from 52', 'from 75 - 90']],
             ['header', ['Overall dimensions, mm:']],
