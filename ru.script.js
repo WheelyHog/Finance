@@ -298,6 +298,8 @@ function contacts_click() {
             toggleMenuActive()
         }
 
+        window.scrollTo(0, 524)
+
         main_inner.innerHTML = '';
         const c_title = document.createElement('h2');
         c_title.innerText = title;
@@ -412,6 +414,8 @@ function about_btn_click() {
         if (menu_active) {
             toggleMenuActive()
         }
+
+        window.scrollTo(0, 524)
 
         const first = document.createElement('p');
         first.innerHTML = `<span>${first_p.title}</span> ${first_p.text}`
@@ -713,6 +717,8 @@ function products_btn_click() {
         if (menu_active) {
             toggleMenuActive()
         }
+
+        window.scrollTo(0, 524)
 
         products.map(elem => {
             const product_div = document.createElement('div')
