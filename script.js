@@ -21,7 +21,6 @@ function toggleMenuActive() {
     console.log(menu_active);
 }
 
-
 // ===================== render slider =====================
 function render_slider() {
     const slider = [
