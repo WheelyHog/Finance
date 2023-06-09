@@ -562,7 +562,7 @@ const products = [
             ['tsubhead', ['', 'URM-5', 'URM-5M']],
             ['header', ['Productivity, m3/h:']],
             ['param', ['with a chip length of 30 - 50 mm', 18, 30]],
-            ['param', ['with a cod length of 5 -10 mm', 5, 15]],
+            ['param', ['with a cod length of 5 -15 mm', 5, 10]],
             ['param', ['Drum wrap frequency, hv-1', '750 - 1500', '500 - 1000']],
             ['header', ['Drum size, mm:']],
             ['param', ['length', 600, 600]],
